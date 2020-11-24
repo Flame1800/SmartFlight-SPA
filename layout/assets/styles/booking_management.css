@@ -1,0 +1,280 @@
+.content .person {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.person .cont-name {
+    display: flex;
+    color: #255794;
+    margin-right: 30px;
+}
+
+.person .cont-name .name {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.person .flights-num {
+    font-size: 18px;
+}
+
+.person .flights-num .num span {
+    font-weight: bold;
+    font-size: 20px;
+}    
+
+.content {
+    padding-top: 130px;
+}
+
+.flights .title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.flights .items {
+    border-radius: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flights .item {
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0px 0px 30px -15px #000;
+    width: 100%;
+}
+
+.flights .item .main-block {
+    padding: 10px;
+    padding-right: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.flights .item .code {
+    font-weight: bold;
+    color: #0e2491;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.flights .item .date {
+    font-size: 20px;
+}
+
+.flights .item .plane-title {
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.flights .item .plane .name {
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+}
+
+
+.flight-items {
+    display: flex;  
+}
+
+
+.flights .flight-items .item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: none;
+}
+
+.flight-items .item .title {
+    margin-bottom: 10px;
+}
+
+
+
+.flight-items .item {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.flight-items .item .separator {
+    font-size: 25px;
+    color: #999;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.flight-items .item .main-time {
+    color: #0e2491;
+    font-size: 28px;
+    margin: 0 20px;
+}
+
+.flight-items .item .name {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.flight-items .item  .airport {
+    color: #142465;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.item  .time {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.item .last-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.last-block .info {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.last-block .info .info-item {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.last-block .info .info-item .name {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.last-block .info .info-item .name2 {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.last-block .info .info-item .value {
+    padding: 15px 20px;
+    border-radius: 30px;
+    background: #51a0ff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.last-block .info .info-item .value2 {
+    background: #1e82fc;
+}
+
+.booking-btn {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.last-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.passengers {
+    display: flex;
+    flex-direction: column;
+}
+
+.passengers .head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.passengers .title {
+    font-size: 24px;
+}
+
+.passengers .items {
+    display: flex;
+    flex-direction: column;
+}
+
+.passengers .item {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: rgb(70, 164, 241) 2px solid;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.passengers .item .name-block {
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+
+.passengers .item .name-block .name {
+    margin-right: 5px;
+    font-size: 20px;
+    color:  rgb(0, 41, 90);
+}
+
+.passengers .item .text {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.passengers .item .text span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.passengers .places {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.passengers .item-place {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.passengers .item-place span {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #255794;
+}
+
+
+
+
+.price {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.price span {
+    font-weight: bold;
+    font-size: 24px;
+}

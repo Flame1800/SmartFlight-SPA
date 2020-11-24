@@ -1,0 +1,163 @@
+    
+
+.content {
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seat {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 10px 22px -7px #000;
+}
+
+.seat-occ {
+    background: rgb(134, 134, 134);
+}
+
+.seat-select {
+    border: #4897f7 2px solid;
+}
+
+.passengers {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.passengers .head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.passengers .title {
+    font-size: 24px;
+}
+
+.passengers .items {
+    display: flex;
+    flex-direction: column;
+}
+
+.passengers .item {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: rgb(70, 164, 241) 2px solid;
+    border-bottom: rgb(70, 164, 241) 2px solid;
+    padding: 10px;
+}
+
+.passengers .item .name-block {
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+
+.passengers .item .name-block .name {
+    margin-right: 5px;
+    font-size: 20px;
+    color:  rgb(0, 41, 90);
+}
+
+.passengers .item .text {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.passengers .item .text span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.passengers .places {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.passengers .item-place {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.passengers .item-place span {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #255794;
+}
+
+.passengers .btn-delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(255, 35, 35);
+    cursor: pointer;
+    color: #fff;
+}
+
+.plane {
+    min-width: 260px;
+    margin-top: 50px;
+    border-radius: 100px 100px 0 0;
+    background: #cecece;
+    padding-bottom: 10px;
+}
+
+.plane .items {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.plane .item {
+    display: flex;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.plane .row {
+    display: flex;
+    margin: 5px 10px;
+}
+
+.plane .row .sym {
+    margin: 0 15px;
+}
+
+.plane .row .seat {
+    margin: 5px;
+}
+
+.info {
+    border-radius: 10px;
+    padding: 10px;
+    background: #cecece;
+    margin-bottom: 10px;
+    color: rgb(58, 58, 58);
+}
+
+.info .item {
+    display: flex;
+    align-items: center;
+}
+
+.info .seat {
+    margin: 20px;
+}
+
+
+
+

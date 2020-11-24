@@ -1,0 +1,183 @@
+    
+
+.content {
+    padding-top: 120px;
+}
+
+.flights .title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.flights .items {
+    border-radius: 30px;
+    background: rgb(173, 210, 255);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flights .item {
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0px 5px 30px -10px #000;
+    transition: 0.3s;
+    width: 100%;
+    cursor: pointer;
+}
+
+.flights .item:hover {
+    box-shadow: 0px 10px 30px -30px #000;
+    background: rgb(214, 232, 255);
+
+}
+
+.flights .active-item {
+    background: rgb(220, 236, 255);
+    border: #1e82fc solid 5px;
+}
+
+.flights .item .main-block {
+    padding: 10px;
+    padding-right: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.flights .item .code {
+    font-weight: bold;
+    color: #0e2491;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.flights .item .date {
+    font-size: 20px;
+}
+
+.flights .item .plane-title {
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.flights .item .plane .name {
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+}
+
+
+.flight-items {
+    display: flex;  
+}
+
+
+.flights .flight-items .item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: none;
+}
+
+.flight-items .item .title {
+    margin-bottom: 10px;
+}
+
+
+
+.flight-items .flight-block {
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.flight-items .flight-block .separator {
+    font-size: 27px;
+    color: #999;
+    font-weight: bold;
+    margin: 0 30px;
+}
+
+.flight-items .flight-block .main-time {
+    color: #0e2491;
+    font-size: 28px;
+    margin: 0 20px;
+}
+
+.flight-items .flight-block .name {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.flight-items .flight-block  .airport {
+    color: #142465;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.item  .time {
+    font-size: 24px;
+}
+
+.item .last-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.last-block .info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.last-block .info .info-item {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.last-block .info .info-item .name {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.last-block .info .info-item .name2 {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.last-block .info .info-item .value {
+    padding: 15px 20px;
+    border-radius: 30px;
+    background: #51a0ff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.last-block .info .info-item .value2 {
+    background: #1e82fc;
+}
+
+.booking-btn {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+

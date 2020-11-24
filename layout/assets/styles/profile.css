@@ -1,0 +1,125 @@
+    
+
+.content {
+    padding-top: 170px;
+}
+
+.content .person {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.person .cont-name {
+    display: flex;
+    color: #255794;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.person .cont-name .name {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.person .flights-num {
+    font-size: 18px;
+}
+
+.person .flights-num .num span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.flights .title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.flights .items {
+    border-radius: 30px;
+    border: #255794 2px solid;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flights .item {
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    border-radius: 30px;
+    background: rgb(218 234 255);
+    width: 100%;
+}
+
+.flights .item .main-block {
+    padding: 10px;
+    padding-right: 20px;
+    border-right: 2px solid rgb(44, 43, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.flights .item .code {
+    font-weight: bold;
+    color: #0e2491;
+    font-size: 20px;
+}
+
+.flights .item .date {
+    font-size: 20px;
+}
+
+.flight-items {
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .flight-items {
+        flex-wrap: wrap;
+    }
+}
+
+.flights .flight-items .flight-block {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flight-items .flight-block .title {
+    margin-bottom: 10px;
+}
+
+.flight-items .flight-block .sub-item {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    border: #153357 2px solid;
+    padding: 10px;
+}
+
+.flight-items .flight-block .sub-item .main-content {
+    margin: 0 20px;
+}
+
+.flight-items .flight-block .sub-item .main-content .name {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.flight-items .flight-block .sub-item .main-content .airport {
+    color: #142465;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.flight-items .flight-block .sub-item .main-content .time {
+    font-size: 21px;
+}
