@@ -16,7 +16,7 @@
 }
 
 .decorations .plane {
-   background-image: url('../img/commercial_airline_main.png');
+   background-image: url('../../img/commercial_airline_main.png');
    width: 800px;
    height: 700px;
    right: 100px;
@@ -24,7 +24,7 @@
 }
 
 .decorations .cloud-1 {
-   background-image: url('../img/clouds/cloud_010.png');
+   background-image: url('../../img/clouds/cloud_010.png');
    width: 700px;
    height: 300px;
    left: 100px;
@@ -32,7 +32,7 @@
 }
 
 .decorations .cloud-2 {
-   background-image: url('../img/clouds/cloud_054.png');
+   background-image: url('../../img/clouds/cloud_054.png');
    width: 700px;
    height: 500px;
    right: 250px;
@@ -40,7 +40,7 @@
 }
 
 .decorations .cloud-3 {
-   background-image: url('../img/clouds/cloud_054.png');
+   background-image: url('../../img/clouds/cloud_054.png');
    width: 400px;
    height: 300px;
    opacity: 0.6;
@@ -49,7 +49,7 @@
 }
 
 .decorations .cloud-4 {
-   background-image: url('../img/clouds/cloud_010.png');
+   background-image: url('../../img/clouds/cloud_010.png');
    width: 400px;
    height: 200px;
    right: 50px;
@@ -225,7 +225,7 @@
 }
 
 .about .img-plane {
-   background-image: url('../img/960.jpg');
+   background-image: url('../../img/960.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    width: 600px;
@@ -295,16 +295,16 @@
 }
 
 .actions .item .img-1 {
-   background-image: url('../img/promotions/promotion1.jpg');
+   background-image: url('../../img/promotions/promotion1.jpg');
 }
 .actions .item .img-2 {
-   background-image: url('../img/promotions/promotion2.jpg');
+   background-image: url('../../img/promotions/promotion2.jpg');
 }
 .actions .item .img-3 {
-   background-image: url('../img/promotions/promotion3.jpg');
+   background-image: url('../../img/promotions/promotion3.jpg');
 }
 .actions .item .img-4 {
-   background-image: url('../img/promotions/promotion4.jpg');
+   background-image: url('../../img/promotions/promotion4.jpg');
 }
 
 .actions .item .text-block {
@@ -362,7 +362,7 @@ footer .phone {
 }
 
 .navigate .logo {
-   background-image: url('../img/logo.png');
+   /*background-image: url('../../img/logo.png');*/
    width: 100px;
    height: 40px;
    background-repeat: no-repeat;

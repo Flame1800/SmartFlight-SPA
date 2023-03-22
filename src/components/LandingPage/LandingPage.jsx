@@ -101,7 +101,7 @@ export default function LandingPage() {
                             на непостоянной основе по мере накопления запросов на перелет
                 </p>
                     </div>
-                    <div class="img-plane"></div>
+                    <div class="/img-plane"></div>
                 </div>
             </section>
             <section class="search" id='search'>
@@ -137,7 +137,7 @@ export default function LandingPage() {
                     </p>
                             <div class="btn2 test-0-abm">Подробнее</div>
                         </div>
-                        <div class="img img-1 test-0-ai"></div>
+                        <div class="/img /img-1 test-0-ai"></div>
                     </div>
                     <div class="item">
                         <div class="text-block">
@@ -148,7 +148,7 @@ export default function LandingPage() {
                     </p>
                             <div class="btn2 test-0-abm">Подробнее</div>
                         </div>
-                        <div class="img img-2 test-0-ai"></div>
+                        <div class="/img /img-2 test-0-ai"></div>
                     </div>
                     <div class="item">
                         <div class="text-block">
@@ -161,7 +161,7 @@ export default function LandingPage() {
                     </p>
                             <div class="btn2 test-0-abm">Подробнее</div>
                         </div>
-                        <div class="img img-3 test-0-ai"></div>
+                        <div class="/img /img-3 test-0-ai"></div>
                     </div>
                     <div class="item">
                         <div class="text-block">
@@ -174,7 +174,7 @@ export default function LandingPage() {
                     </p>
                             <div class="btn2 test-0-abm">Подробнее</div>
                         </div>
-                        <div class="img img-4 test-0-ai"></div>
+                        <div class="/img /img-4 test-0-ai"></div>
                     </div>
                 </div>
             </section>
